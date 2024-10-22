@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>سبد خرید با بوت استرپ 5</title>
+        <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+      <div class="container mt-5">
+        <h2 class="fw-bold">سبد خرید</h2>
+        <section class="w-100 mt-4">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <div class="card p-3 mb-3">
+                <h5 class="card-title fw-bold">محصول 1</h5>
+                <p>توضیحات محصول 1</p>
+                <input type="number" class="form-control" placeholder="تعداد">
+                <div class="d-flex justify-content-between mt-1">
+                  <span class="text-secondary font_14 fw-semibold">قیمت:$50.00</span>
+                  <span class="text-danger font_14 fw-semibold">تخفیف:10%</span>
+                </div>
+                <button class="btn btn-primary mt-3 w-155px">افزودن به سبد خرید</button>
+              </div>
+              <div class="card p-3">
+                <h5 class="card-title fw-bold">محصول 2</h5>
+                <p>توضیحات محصول 2</p>
+                <input type="number" class="form-control" placeholder="تعداد">
+                <div class="d-flex justify-content-between mt-1">
+                  <span class="text-secondary font_14 fw-semibold">قیمت:$75.00</span>
+                  <span class="text-danger font_14 fw-semibold">تخفیف:15%</span>
+                </div>
+                <button class="btn btn-primary mt-3 w-155px">افزودن به سبد خرید</button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-sm-3 mt-lg-0">
+              <div class="card p-3">
+                <h5 class="fw-bold">سبد خرید</h5>
+                <ul class="list-group border-bottom-0 border-top-0 mt-1">
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="font_14 fw-bold">محصول 1</span>
+                    <span class="rounded-5 px-2 text-bg-primary">1</span>
+                    <span class="font_14 text-bg-success p-1 rounded-5">$45.00</span>
+                    <button class="btn-close"></button>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="font_14 fw-bold">محصول 2</span>
+                    <span class="rounded-5 px-2 text-bg-primary">2</span>
+                    <span class="font_14 text-bg-success p-1 rounded-5">$127.50</span>
+                    <button class="btn-close"></button>
+                  </li>
+                </ul>
+                <hr>
+                <span class="fw-semibold font_14">جمع کل:$172.50</span>
+                <button class="btn btn-success mt-3 w_80px" id="purchase">پرداخت</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>  
+      <script src="js/javascript.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
