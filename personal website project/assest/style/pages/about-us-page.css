@@ -1,0 +1,237 @@
+body {
+    font-family: 'manrope';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding-bottom: 20px !important;
+}
+.fs-h {
+    font-size: 42px;
+}
+/* hero-about-us */
+.hero {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.w-40 {
+    width: 40%;
+}
+/* hero-about-us */
+/* intro */
+.intro-container {
+    background: var(--primary);
+    padding: 100px 0px;
+} 
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature {
+  width: 48%;
+}
+/* intro */
+/* process */
+.process {
+    padding: 100px 0px; 
+}
+.steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.step {
+    width: 22%;
+    padding: 15px;
+    position: relative;
+}
+.step::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: -25px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--blue);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.step::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: -18px;
+    width: 160px;
+    height: 2px;
+    background-color: var(--blue);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+/* process */
+/* mission-vision */
+.mission-vision-container {
+    padding: 100px 0px;
+    background: #eef2f5;
+}
+.mission-vision {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.mission, .vision {
+    display: flex;
+    gap: 50px;
+}
+/* mission-vision */
+/* benefits */
+.benefits {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.benefit-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.card {
+    width: 30%;
+    background: var(--primary);
+    border: none;
+    padding: 20px;
+}
+.users {
+    padding-bottom: 100px;
+}
+.users-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/* benefits */
+/* member */
+.team-container{
+  background-color: var(--primary); 
+  padding: 100px 0px;
+  text-align: center;
+}
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.member {
+  width: 22%;
+  background-color: #fff;
+  padding: 20px;
+}
+.member img {
+  border-radius: 50%;
+}
+/* member */
+@media screen and (max-width:1400px) {
+    /* no code in this scope */
+}
+@media screen and (max-width:1200px) {
+    /* no code in this scope */
+}
+@media screen and (max-width:992px)  {
+    .hero {
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 0px;
+    }
+    .hero div , .intro div {
+        width: 100%;
+    }
+    .intro {
+        flex-direction: column;
+    }
+    .intro-container {
+        padding: 40px 0px;
+    }
+    .steps {
+        gap: 20px;
+    }
+    .step {
+        width: 45%;
+    }
+    .step::before {
+        right: 80px;
+        width: 180px;
+    }
+    .process {
+        padding: 40px 0px ;
+    }
+    .mission {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .vision {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .mission-vision {
+        gap: 20px;
+    }
+    .mission-vision-container {
+        padding: 40px 0px;
+    }
+    .benefits {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .benefit-cards {
+        justify-content: center;
+        gap: 20px;
+    }
+    .card {
+        width: 48%;
+    }
+    .users {
+        padding-bottom: 40px;
+        flex-direction: column;
+    }
+    .users-img {
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .step::before {
+        right: 40px;
+        width: 140px;
+    }
+    .member {
+        width: 46%;
+    }
+}
+@media screen and (max-width:576px) {
+    .intro-container {
+        padding: 40px 10px;
+    }
+    .steps {
+        justify-content: center;
+    }
+    .step {
+        width: 80%;
+    }
+    .card {
+        width: 100%;
+    }
+    .member {
+        width: 100%;
+    }
+}

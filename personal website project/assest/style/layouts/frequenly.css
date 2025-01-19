@@ -1,0 +1,40 @@
+/* faq */
+.faq {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.faq-list-item {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-list li {
+    margin: 10px 0;
+}
+/* faq */
+@media screen and (max-width:1400px) {
+    /* no code in this scope */
+}
+@media screen and (max-width:1200px) {
+    /* no code in this scope */
+}
+@media screen and (max-width:992px)  {
+.faq {
+    flex-direction: column;
+    padding: 40px 10px;
+}
+.faq-list-item {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media screen and (max-width:768px) {
+
+}
+@media screen and (max-width:576px) {
+
+}

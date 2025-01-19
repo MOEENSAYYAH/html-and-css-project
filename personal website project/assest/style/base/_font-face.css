@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'manrope';
+    src: local('shabnam') , url('../../fonts/Manrope-VariableFont_wght.ttf')format('truetype'),
+}
+
+@font-face {
+    font-family: 'poppins-Bold';
+    src: local('poppins-Bold') , url('../../fonts/Poppins-Bold.ttf')format('truetype'),
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: local('poppins-light') ,  url('../../fonts/Poppins-Light.ttf')format('truetype')
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: local('poppins-medium') , url('../../fonts/Poppins-Medium.ttf')format('truetype')
+
+}
+

@@ -1,0 +1,74 @@
+body {
+    font-family: 'manrope';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding-bottom: 20px !important;
+}
+.fs-h {
+    font-size: 42px;
+}
+.color-royal-blue {
+    color: var(--blue);
+}
+
+.pricing-plans {
+  text-align: center;
+  padding: 100px 0px;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.plan {
+  background: var(--primary);
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  text-align: left;
+}
+.highlighted {
+  background: var(--purple);
+  color: #fff;
+}
+.link-pricing-btn {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    padding: 10px 40px; 
+    background-color: black;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.color-yellow {
+    color: var(--yellow);
+}
+.bg-yellow {
+    background-color: var(--yellow);
+    color: black;
+}
+@media screen and (max-width:1400px) {
+  /* no code in this scope */
+}
+@media screen and (max-width:1200px) {
+  /* no code in this scope */
+}
+@media screen and (max-width:992px)  {
+  .pricing-plans {
+    padding: 40px 0px;
+  }
+}
+@media screen and (max-width:768px) {
+
+}
+@media screen and (max-width:576px) {
+
+}
